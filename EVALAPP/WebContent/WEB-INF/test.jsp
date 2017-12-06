@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>page blanche</p>
+<p>page blanche ééé</p>
 </body>
 </html>
