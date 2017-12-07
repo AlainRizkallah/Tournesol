@@ -15,5 +15,15 @@
             String parametre = request.getParameter( "auteur" );
             out.println( parametre );
             %>
+            
+            <p>
+            Récupération du bean :
+            <%	
+	    fr.isep.eval.beans.PremierBean notreBean = (fr.isep.eval.beans.PremierBean) request.getAttribute("alain");
+	    out.println( notreBean.getPrenom() );
+            out.println( notreBean.getNom() );
+            %>
+        </p>
+        
 </body>
 </html>
