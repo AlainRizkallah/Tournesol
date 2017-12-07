@@ -8,21 +8,15 @@
 </head>
 <body>
 <p>page blanche ééé</p>
-<% 
-            String attribut = (String) request.getAttribute("test");
-            out.println( attribut );
-           
-            String parametre = request.getParameter( "auteur" );
-            out.println( parametre );
-            %>
-            
-            <p>
+ 
+        <p>
+            ${test}
+            ${param.auteur}
+        </p>
+        <p>
             Récupération du bean :
-            <%	
-	    fr.isep.eval.beans.PremierBean notreBean = (fr.isep.eval.beans.PremierBean) request.getAttribute("alain");
-	    out.println( notreBean.getPrenom() );
-            out.println( notreBean.getNom() );
-            %>
+            ${alain.prenom}
+            ${alain.nom}
         </p>
         
 </body>
