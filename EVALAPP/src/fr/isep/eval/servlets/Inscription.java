@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import fr.isep.eval.beans.PremierBean;
+import fr.isep.eval.beans.Utilisateur;
 
 public class Inscription extends HttpServlet {
     public static final String VUE          = "/WEB-INF/inscription.jsp";
